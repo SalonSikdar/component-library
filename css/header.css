@@ -13,7 +13,7 @@
     width: 100vw;
     z-index: 1;
     font-size: 1.3rem;
-    background-color:#FCFCFC;
+    background-color:var(--bg-color);
     display: flex;
     align-items: center;
     justify-content: space-between;

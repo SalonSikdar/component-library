@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;500;600;700&display=swap");
 :root {
-  --primary-colour: #11224d;
-  --secondary-colour: #5b84c4;
+  --primary-colour: var(--primary-color);
+  --secondary-colour: var(--secondary-color);
   --primary-font-colour: #fff;
   --secondary-font-colour: #000;
   --font: "PT Sans", sans-serif;
@@ -31,7 +31,7 @@
   border-radius: 0.2em;
   display: block;
   width: 100%;
-  color: #11224d;
+  color: var(--primary-color);
   font-weight: 500;
   margin-top: 0.6em;
 }
@@ -42,20 +42,20 @@
   border-radius: 0.2em;
   display: block;
   width: 93%;
-  color: #f98125;
+  color: var(--secondary-color);
   margin-top: 0.3em;
   margin-left: 0.5em;
 }
 
 .nav-sub-heading:hover {
-  background-color: #11224d;
+  background-color: var(--primary-color);
 }
 
 .nav-sub-heading > a {
   display: block;
   width: 100%;
   text-decoration: none;
-  color: #f98125;
+  color: var(--secondary-color);
 }
 
 .nav-sub-heading:hover > a {
@@ -75,14 +75,14 @@
 }
 
 .component-links:hover {
-  background-color: #11224d;
+  background-color: var(--primary-color);
 }
 
 .component-links > a {
   display: block;
   text-decoration: none;
   padding: 0.2em 0.5em;
-  color: #f98125;
+  color: var(--secondary-color);
   width: 100%;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .component-display-header {
-  color: #11224d;
+  color: var(--primary-color);
 }
 
 .sub-comp-header {
@@ -127,7 +127,7 @@
 }
 
 .highlight {
-  background-color: #11224d;
+  background-color: var(--primary-color);
   color: #034438;
   padding: 0 0.2em;
   border-radius: 0.2em;

@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
-  background-color: #fcfcfc;
+  background-color: var(--bg-color);
 }
 
 .docs-link {
@@ -43,16 +43,16 @@
 }
 
 button:hover {
-  background-color: #f98125;
+  background-color: var(--secondary-color);
   border: none;
-  color: #fcfcfc;
+  color: var(--bg-color);
 }
 
 .main-start,
 .main-github {
   border: none;
-  background-color: #11224d;
-  color: #fcfcfc;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
   height: 3.1em;
   width: 10.6em;
   font-size: 1rem;
@@ -62,7 +62,7 @@ button:hover {
 }
 
 .main-github {
-  border: solid 2px #11224D;
+  border: solid 2px var(--primary-color);
   background-color: transparent;
   color: #000;
 }
