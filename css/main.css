@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+  background-color: #fcfcfc;
+}
+
+.docs-link {
+  float: right;
+  margin-top: 0.5em;
+  margin-right: 4em;
+  font-size: 1.05rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.docs-link:hover {
+  text-decoration: underline;
+}
+
+.main-container {
+  margin-top: 10em;
+}
+
+.main-logo {
+  width: 30em;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-desc {
+  font-size: 1.5rem;
+  max-width: 20em;
+  text-align: center;
+  margin: 2em auto;
+}
+
+.button-home {
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #f98125;
+  border: none;
+  color: #fcfcfc;
+}
+
+.main-start,
+.main-github {
+  border: none;
+  background-color: #11224d;
+  color: #fcfcfc;
+  height: 3.1em;
+  width: 10.6em;
+  font-size: 1rem;
+  border-radius: 0.25em;
+  margin: 0 0.7em;
+  cursor: pointer;
+}
+
+.main-github {
+  border: solid 2px#11224D;
+  background-color: transparent;
+  color: #000;
+}
+
+@media (max-width: 480px) {
+  .docs-link {
+    display: none;
+  }
+}
+
+@media (max-width: 410px) {
+  .button-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main-start {
+    margin-bottom: 1em;
+  }
+}
