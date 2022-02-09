@@ -1,0 +1,51 @@
+img.avatar {
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: auto !important;
+  padding: auto !important;
+  box-shadow: 5px 5px 3px rgb(63, 64, 95);
+}
+
+.avatar-xl img {
+  width: 12em;
+  height: 12em;
+}
+
+.avatar-lg img {
+  width: 10em;
+  height: 10em;
+}
+
+.avatar-std img {
+  width: 8em;
+  height: 8em;
+}
+
+.avatar-sm img {
+  width: 6em;
+  height: 6em;
+}
+
+.avatar-xs img {
+  width: 4em;
+  height: 4em;
+}
+
+.online {
+  outline: solid 5px var(--success-color);
+  margin: 0.5em;
+  box-shadow: 7px 7px 5px rgb(63, 64, 95);
+}
+
+.offline {
+  outline: solid 5px var(--failure-color);
+  margin: 0.5em;
+  box-shadow: 7px 7px 5px rgb(63, 64, 95);
+}
+
+.away {
+  outline: solid 5px var(--warning-color);
+  margin: 0.5em;
+  box-shadow: 7px 7px 5px rgb(63, 64, 95);
+}

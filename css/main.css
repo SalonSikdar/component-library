@@ -6,6 +6,13 @@
   background-color: var(--bg-color);
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 .docs-link span {
   float: right;
   margin-top: 0.5em;

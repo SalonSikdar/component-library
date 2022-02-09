@@ -82,12 +82,14 @@
   display: block;
   text-decoration: none;
   padding: 0.2em 0.5em;
+  border-radius: 0.2em;
   color: var(--secondary-color);
   width: 100%;
 }
 
 .component-links:hover > a {
   color: #ffffff;
+  background-color: var(--primary-color);
 }
 
 .component-display {
@@ -123,12 +125,12 @@
   margin-left: 0.5em;
   font-family: "PT Sans", sans-serif;
   line-height: 1.5em;
-  color:#464d5f;
+  color: #464d5f;
 }
 
 .highlight {
   background-color: var(--primary-color);
-  color: #034438;
+  color: var(--secondary-color);
   padding: 0 0.2em;
   border-radius: 0.2em;
 }
