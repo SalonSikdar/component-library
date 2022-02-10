@@ -128,6 +128,9 @@
   line-height: 1.5em;
   color: #464d5f;
 }
+.component-description b {
+  font-weight: bold !important;
+}
 
 .highlight {
   background-color: var(--primary-color);
