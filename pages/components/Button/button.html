@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons</title>
+    <link rel="stylesheet" href="../../../css/header.css" />
+    <link rel="stylesheet" href="../../../css/main.css" />
+    <link rel="stylesheet" href="../../../css/comp-page.css" />
+    <link rel="stylesheet" href="../../../css/utilities.css" />
+    <link rel="stylesheet" href="./button.css" />
+    <link rel="shortcut icon" href="../../../images/simpleUIlogo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../../../images/simpleUIlogo.png" />
+    <link rel="stylesheet" href="../../../css/night-owl.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="page-profile-link" href="../../../index.html">
+            <span class="page-profile">
+                <img class="page-profile-logo" src="../../../images/simpleUIlogo.png" width="2em" alt="" />
+                <span class="page-profile-title">Simple UI</span>
+            </span>
+        </a>
+    </header>
+    <nav class="site-nav">
+        <div class="nav-main-heading">Getting Started</div>
+
+        <div class="nav-sub-heading nav-getstarted">
+            <a href="../../howToUse.html">Usage</a>
+        </div>
+
+        <div class="nav-main-heading">Components</div>
+        <ul class="nav-comp-section">
+            <li class="component-links">
+                <a href="/pages/components/Avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="component-links">
+                <a href="../Alert/alert.html">Alert</a>
+            </li>
+            <li class="component-links">
+                <a href="../Badge/badge.html">Badge</a>
+            </li>
+            <li class="component-links">
+                <a href="../Button/button.html">Button</a>
+            </li>
+            <li class="component-links">
+                <a href="../Card/card.html">Card</a>
+            </li>
+            <li class="component-links">
+                <a href="../Image/image.html">Image</a>
+            </li>
+            <li class="component-links">
+                <a href="../Input/input.html">Input</a>
+            </li>
+            <li class="component-links">
+                <a href="../Lists/lists.html">List</a>
+            </li>
+            <li class="component-links">
+                <a href="../Navigation/navigation.html">Navigation</a>
+            </li>
+            <li class="component-links">
+                <a href="../Toast/toast.html">Toast</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="component-display">
+        <h1 class="component-display-header">Buttons</h1>
+        <pre class="comp-code-container"><code class="html">
+    @import url("https://si-mpleui.netlify.app/pages/components/Button/button.css");
+    &lt;link rel="stylesheet" 
+    href="https://si-mpleui.netlify.app/pages/components/Button/button.css">
+            </code></pre>
+        <br />
+        <h2 class="sub-comp-header">Simple Buttons</h2>
+        <div class="row">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-error">Danger</button>
+            <button type="button" class="btn btn-link">Link</button>
+        </div>
+        <br />
+        <p class="component-description">
+            The buttons can be customized to six basic styles, <span class="highlight">btn-primary</span> (primary
+            color),<span class="highlight">btn-success</span> (green), <span class="highlight">btn-warning</span>
+            (yellow), <span class="highlight">btn-info</span> (blue) <span class="highlight">btn-error</span> (red) and
+            <span class="highlight">btn-link(border-less link)</span>.
+        </p>
+        <pre class="comp-code-container">
+            <code class="html">
+            &lt;button type="button" class="btn btn-primary">Primary&lt;/button>
+            &lt;button type="button" class="btn btn-success">Success&lt;/button>
+            &lt;button type="button" class="btn btn-info">Info&lt;/button>
+            &lt;button type="button" class="btn btn-warning">Warning&lt;/button>
+            &lt;button type="button" class="btn btn-error">Danger&lt;/button>
+            &lt;button type="button" class="btn btn-link">Link&lt;/button>
+            </code>
+        </pre>
+        <h2 class="sub-comp-header">Outlined Buttons</h2>
+        <div class="row">
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-error">Danger</button>
+        </div>
+        <br />
+        <p class="component-description">
+            The buttons can be customized to six basic styles, <span class="highlight">btn-outline-primary</span>
+            (primary
+            color),<span class="highlight">btn-outline-success</span> (green), <span
+                class="highlight">btn-outline-warning</span>
+            (yellow), <span class="highlight">btn-outline-info</span> (blue) <span
+                class="highlight">btn-outline-error</span> (red).
+        </p>
+        <pre class="comp-code-container">
+            <code class="html">
+            &lt;button type="button" class="btn btn-outline-primary">Primary&lt;/button>
+            &lt;button type="button" class="btn btn-outline-success">Success&lt;/button>
+            &lt;button type="button" class="btn btn-outline-info">Info&lt;/button>
+            &lt;button type="button" class="btn btn-outline-warning">Warning&lt;/button>
+            &lt;button type="button" class="btn btn-outline-error">Danger&lt;/button>
+            </code>
+        </pre>
+        <footer class="page-footer">
+            <a href="../Badge/badge.html" class="footer-button">
+                <img src="../../../images/previous-arrow.svg" alt="" />Badge
+            </a>
+            <a href="../Card/card.html" class="footer-button">
+                Card
+                <img src="../../../images/forward-arrow.svg" alt="" />
+            </a>
+        </footer>
+    </main>
+    <script src="../../../src/colorTheme.js"></script>
+    <script src="../../../src/helper.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
