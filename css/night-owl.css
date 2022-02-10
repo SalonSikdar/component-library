@@ -1,173 +1,177 @@
+:root {
+  --code-background: #011627;
+}
+
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #011627;
+  background: var(--code-background);
   color: #d6deeb;
 }
 .hljs-keyword {
   color: #c792ea;
   font-style: italic;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-built_in {
   color: #addb67;
   font-style: italic;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-type {
   color: #82aaff;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-literal {
   color: #ff5874;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-number {
   color: #f78c6c;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-regexp {
   color: #5ca7e4;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-string {
   color: #ecc48d;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-subst {
   color: #d3423e;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-symbol {
   color: #82aaff;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-class {
   color: #ffcb8b;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-function {
   color: #82aaff;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-title {
   color: #dcdcaa;
   font-style: italic;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-params {
   color: #7fdbca;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-comment {
   color: #637777;
   font-style: italic;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-doctag {
   color: #7fdbca;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-meta {
   color: #82aaff;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-meta-keyword {
   color: #82aaff;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-meta-string {
   color: #ecc48d;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-section {
   color: #82b1ff;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-builtin-name,
 .hljs-name,
 .hljs-tag {
   color: #7fdbca;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-attr {
   color: #7fdbca;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-attribute {
   color: #80cbc4;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-variable {
   color: #addb67;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-bullet {
   color: #d9f5dd;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-code {
   color: #80cbc4;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-emphasis {
   color: #c792ea;
   font-style: italic;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-strong {
   color: #addb67;
-  background: #011627;
+  background: var(--code-background);
   font-weight: 700;
 }
 .hljs-formula {
   color: #c792ea;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-link {
   color: #ff869a;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-quote {
   color: #697098;
   font-style: italic;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-selector-tag {
   color: #ff6363;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-selector-id {
   color: #fad430;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-selector-class {
   color: #addb67;
   font-style: italic;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-selector-attr,
 .hljs-selector-pseudo {
   color: #c792ea;
   font-style: italic;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-template-tag {
   color: #c792ea;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-template-variable {
   color: #addb67;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-addition {
   color: #addb67ff;
   font-style: italic;
-  background: #011627;
+  background: var(--code-background);
 }
 .hljs-deletion {
   color: #ef535090;
   font-style: italic;
-  background: #011627;
+  background: var(--code-background);
 }
