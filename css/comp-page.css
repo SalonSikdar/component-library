@@ -89,7 +89,7 @@
 }
 
 .component-links:hover > a {
-  color: var(--white-global) fff;
+  color: var(--white-global);
   background-color: var(--primary-color);
 }
 
