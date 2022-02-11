@@ -1,10 +1,14 @@
+:root {
+  --shadow-color: rgb(63, 64, 95);
+}
+
 img.avatar {
   object-fit: cover;
   border-radius: 50%;
   display: block;
   margin: auto !important;
   padding: auto !important;
-  box-shadow: 5px 5px 3px rgb(63, 64, 95);
+  box-shadow: 5px 5px 3px var(--shadow-color);
 }
 
 .avatar-xl img {
@@ -35,17 +39,17 @@ img.avatar {
 .online {
   outline: solid 5px var(--success-color);
   margin: 0.5rem;
-  box-shadow: 7px 7px 5px rgb(63, 64, 95);
+  box-shadow: 7px 7px 5px var(--shadow-color);
 }
 
 .offline {
   outline: solid 5px var(--failure-color);
   margin: 0.5rem;
-  box-shadow: 7px 7px 5px rgb(63, 64, 95);
+  box-shadow: 7px 7px 5px var(--shadow-color);
 }
 
 .away {
   outline: solid 5px var(--warning-color);
   margin: 0.5rem;
-  box-shadow: 7px 7px 5px rgb(63, 64, 95);
+  box-shadow: 7px 7px 5px var(--shadow-color);
 }

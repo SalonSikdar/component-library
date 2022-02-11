@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;500;600;700&display=swap");
+
 :root {
   --primary-colour: var(--primary-color);
   --secondary-colour: var(--secondary-color);
-  --primary-font-colour: #fff;
-  --secondary-font-colour: #000;
+  --primary-font-colour: var(--white-global);
+  --secondary-font-colour: var(--black-global);
   --font: "PT Sans", sans-serif;
   --card-width: 15em;
   --card-max-width: 90vw;
@@ -59,7 +60,7 @@
 }
 
 .nav-sub-heading:hover > a {
-  color: #ffffff;
+  color: var(--white-global) fff;
 }
 
 .nav-comp-section {
@@ -88,7 +89,7 @@
 }
 
 .component-links:hover > a {
-  color: #ffffff;
+  color: var(--white-global) fff;
   background-color: var(--primary-color);
 }
 
@@ -128,6 +129,9 @@
   line-height: 1.5em;
   color: #464d5f;
 }
+.component-description b {
+  font-weight: bold !important;
+}
 
 .highlight {
   background-color: var(--primary-color);
@@ -154,7 +158,7 @@
   margin-bottom: 0.7em;
   font-size: 1.05rem;
   cursor: pointer;
-  color: #000;
+  color: var(--black-global);
   text-decoration: none;
 }
 
@@ -173,12 +177,13 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #000;
+  color: var(--black-global);
   font-weight: 500;
+  font-size: 1.5em;
 }
 
 .footer-button > img {
-  width: 1.5em;
+  width: 2em;
   margin-top: 0.05em;
   margin-left: 0.2em;
   margin-right: 0.2em;

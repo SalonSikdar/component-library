@@ -14,3 +14,5 @@ rootDoc.style.setProperty("--success-color", "#3E5B31");
 rootDoc.style.setProperty("--failure-color", "#B40F36");
 rootDoc.style.setProperty("--info-color", "#0C6980");
 rootDoc.style.setProperty("--warning-color", "#EFCA2D");
+rootDoc.style.setProperty("--white-global", "#fff");
+rootDoc.style.setProperty("--black-global", "#000");
