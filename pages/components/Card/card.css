@@ -6,7 +6,6 @@
 .card {
   position: relative;
   display: flex;
-  -ms-flex-direction: column;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
@@ -78,7 +77,6 @@
 }
 
 .card-body {
-  -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1rem;
 }
