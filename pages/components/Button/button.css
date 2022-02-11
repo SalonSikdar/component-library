@@ -1,5 +1,14 @@
 :root {
   --white-pick: #fff;
+  --err-hover-ol: #772835;
+  --err-hover-bg: #772835;
+  --warning-hover-ol: #ae6919;
+  --warning-hover-bg: #b86f1a;
+  --info-hover-ol: #027ba6;
+  --info-hover-bg: #0283b0;
+  --success-hover-ol: #346909;
+  --success-hover-bg: #346909;
+  --basic-color:#212529;
 }
 
 .btn {
@@ -8,7 +17,7 @@
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: var(--basic-color);
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -52,8 +61,8 @@
 
 .btn-success:hover {
   color: var(--white-pick);
-  background-color: #346909;
-  border-color: #346909;
+  background-color: var(--success-hover-bg);
+  border-color: var(--success-hover-ol);
 }
 
 .btn-info {
@@ -64,8 +73,8 @@
 
 .btn-info:hover {
   color: var(--white-pick);
-  background-color: #0283b0;
-  border-color: #027ba6;
+  background-color: var(--info-hover-bg);
+  border-color: var(--info-hover-ol);
 }
 
 .btn-warning {
@@ -76,8 +85,8 @@
 
 .btn-warning:hover {
   color: var(--white-pick);
-  background-color: #b86f1a;
-  border-color: #ae6919;
+  background-color: var(--warning-hover-bg);
+  border-color: var(--warning-hover-ol);
 }
 
 .btn-error {
@@ -88,8 +97,8 @@
 
 .btn-error:hover {
   color: var(--white-pick);
-  background-color: #772835;
-  border-color: #772835;
+  background-color: var(--err-hover-bg);
+  border-color: var(--err-hover-ol);
 }
 
 .btn-link {

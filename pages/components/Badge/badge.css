@@ -4,7 +4,7 @@
   font-size: 0.75em;
   font-weight: 700;
   line-height: 1;
-  color: #fff;
+  color:var(--white-global);
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;

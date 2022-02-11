@@ -1,20 +1,24 @@
+:root {
+  --border-white: #eeeeee;
+  --header-default-bg: rgba(0, 0, 0, 0.03);
+}
+
 .card {
   position: relative;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: var(--white-global);
   background-clip: border-box;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-white);
   border-radius: 0.25rem;
 }
 
 .text-white {
   --bs-text-opacity: 1;
-  color: #fff !important;
+  color: var(--white-global) !important;
 }
 
 .bg-primary {
@@ -69,8 +73,8 @@
 .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid #eeeeee;
+  background-color: var(--header-default-bg);
+  border-bottom: 1px solid var(--border-white);
 }
 
 .card-body {
