@@ -22,6 +22,7 @@
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
+
 .alert strong {
   background-color: var(--transparent-color);
   font-weight: bold;
@@ -30,13 +31,16 @@
 .alert p {
   background-color: var(--transparent-color);
 }
+
 .alert h4 {
   background-color: var(--transparent-color);
   font-weight: bold;
 }
+
 .alert a {
   background-color: var(--transparent-color);
 }
+
 .alert-dismissible {
   padding-right: 3rem;
 }
@@ -48,6 +52,7 @@
   z-index: 2;
   padding: 1.25rem 1rem;
 }
+
 .alert-warning {
   color: var(--primary-color);
   background-color: var(--warning-background);
@@ -56,9 +61,11 @@
 .alert-warning .alert-link {
   color: var(--primary-color);
 }
+
 button {
   border-radius: 0;
 }
+
 .btn-close {
   box-sizing: content-box;
   width: 1em;
@@ -88,9 +95,11 @@ button {
 .alert-heading {
   color: inherit;
 }
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
+
 .alert-link {
   font-weight: 700;
 }
