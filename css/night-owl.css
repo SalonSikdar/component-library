@@ -7,15 +7,15 @@
   overflow-x: auto;
   padding: 0.5em;
   background: var(--code-background);
-  color: #d6deeb;
+  color: var(--ultra-light-primary-color);
 }
 .hljs-keyword {
-  color: #c792ea;
+  color: #f000ff;
   font-style: italic;
   background: var(--code-background);
 }
 .hljs-built_in {
-  color: #addb67;
+  color: #74ee15;
   font-style: italic;
   background: var(--code-background);
 }
@@ -36,7 +36,7 @@
   background: var(--code-background);
 }
 .hljs-string {
-  color: #ecc48d;
+  color: var(--light-secondary-color);
   background: var(--code-background);
 }
 .hljs-subst {
@@ -61,7 +61,7 @@
   background: var(--code-background);
 }
 .hljs-params {
-  color: #7fdbca;
+  color: var(--white-global);
   background: var(--code-background);
 }
 .hljs-comment {
@@ -70,7 +70,7 @@
   background: var(--code-background);
 }
 .hljs-doctag {
-  color: #7fdbca;
+  color: var(--white-global);
   background: var(--code-background);
 }
 .hljs-meta {
@@ -82,7 +82,7 @@
   background: var(--code-background);
 }
 .hljs-meta-string {
-  color: #ecc48d;
+  color: var(--light-secondary-color);
   background: var(--code-background);
 }
 .hljs-section {
@@ -92,11 +92,11 @@
 .hljs-builtin-name,
 .hljs-name,
 .hljs-tag {
-  color: #7fdbca;
+  color: var(--white-global);
   background: var(--code-background);
 }
 .hljs-attr {
-  color: #7fdbca;
+  color: var(--white-global);
   background: var(--code-background);
 }
 .hljs-attribute {
@@ -104,7 +104,7 @@
   background: var(--code-background);
 }
 .hljs-variable {
-  color: #addb67;
+  color: #74ee15;
   background: var(--code-background);
 }
 .hljs-bullet {
@@ -116,17 +116,17 @@
   background: var(--code-background);
 }
 .hljs-emphasis {
-  color: #c792ea;
+  color: #f000ff;
   font-style: italic;
   background: var(--code-background);
 }
 .hljs-strong {
-  color: #addb67;
+  color: #74ee15;
   background: var(--code-background);
   font-weight: 700;
 }
 .hljs-formula {
-  color: #c792ea;
+  color: #f000ff;
   background: var(--code-background);
 }
 .hljs-link {
@@ -147,26 +147,26 @@
   background: var(--code-background);
 }
 .hljs-selector-class {
-  color: #addb67;
+  color: #74ee15;
   font-style: italic;
   background: var(--code-background);
 }
 .hljs-selector-attr,
 .hljs-selector-pseudo {
-  color: #c792ea;
+  color: #f000ff;
   font-style: italic;
   background: var(--code-background);
 }
 .hljs-template-tag {
-  color: #c792ea;
+  color: #f000ff;
   background: var(--code-background);
 }
 .hljs-template-variable {
-  color: #addb67;
+  color: #74ee15;
   background: var(--code-background);
 }
 .hljs-addition {
-  color: #addb67ff;
+  color: #74ee15ff;
   font-style: italic;
   background: var(--code-background);
 }
