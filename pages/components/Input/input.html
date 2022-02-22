@@ -87,11 +87,23 @@
         </div>
         <br />
         <p class="component-description">
-            ...
+            For indicating valid entry, use the class combination <span
+                class="highlight">is-valid,valid-feedback</span>.
+            For indicating invalid entry, use the class combination <span
+                class="highlight">is-invalid,invalid-feedback</span>.
         </p>
         <pre class="comp-code-container">
             <code class="html">
-                ---
+                &lt;div>
+                    &lt;label class="form-label mt-4">Valid input&lt;/label>
+                    &lt;input type="text" value="correct value" class="form-control is-valid">
+                    &lt;div class="valid-feedback">Success! You've done it.&lt;/div>
+                &lt;/div>
+                &lt;div>
+                    &lt;label class="form-label mt-4">Invalid input&lt;/label>
+                    &lt;input type="text" value="wrong value" class="form-control is-invalid">
+                    &lt;div class="invalid-feedback">Sorry, that username's taken. Try another?&lt;/div>
+                &lt;/div>
             </code>
         </pre>
 
