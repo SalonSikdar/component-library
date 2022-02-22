@@ -1,0 +1,47 @@
+.form-label {
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--primary-color);
+  background-color: var(--white-global);
+  background-clip: padding-box;
+  border: 1px solid #bbb;
+  border-radius: 0.25rem;
+}
+
+.is-valid {
+  border: 1px solid var(--success-color);
+}
+
+.is-invalid {
+  border: 1px solid var(--failure-color);
+}
+
+.valid-feedback {
+  color: var(--success-color);
+}
+
+.invalid-feedback {
+  color: var(--failure-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .form-control {
+    transition: none;
+  }
+}
+
+.form-control:focus {
+  color: var(--primary-color);
+  background-color: var(--white-global);
+  border-color: var(--failure-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(var(--failure-color), 0.25);
+}
