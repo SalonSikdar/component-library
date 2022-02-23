@@ -55,6 +55,10 @@ button:hover {
   color: var(--bg-color);
 }
 
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
 .main-start,
 .main-github {
   border: none;

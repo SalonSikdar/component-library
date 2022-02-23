@@ -8,7 +8,7 @@
   --info-hover-bg: #0283b0;
   --success-hover-ol: #346909;
   --success-hover-bg: #346909;
-  --basic-color:#212529;
+  --basic-color: #212529;
 }
 
 .btn {
@@ -166,3 +166,50 @@
   background-color: var(--warning-color);
   border-color: var(--warning-color);
 }
+
+/* floating button */
+
+.fb-container-demo {
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.fb-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: var(--primary-color);
+  box-shadow: 5px 5px 10px #aaaaaa;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  background: var(--primary-color);
+}
+
+.icon i {
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center;
+  height: 100%;
+  color: var(--secondary-color);
+  background-color: inherit;
+}
+
+.icon:hover {
+  background: var(--medium-primary-color);
+  box-shadow: 5px 5px 10px var(--light-secondary-color);
+}
+
+/* .icon i:hover {
+} */
