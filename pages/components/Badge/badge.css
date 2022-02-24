@@ -4,7 +4,7 @@
   font-size: 0.75em;
   font-weight: 700;
   line-height: 1;
-  color:var(--white-global);
+  color: var(--white-global);
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -35,4 +35,99 @@
 .bg-warning {
   --bs-bg-opacity: 1;
   background-color: var(--warning-color) !important;
+}
+
+.badge-round {
+  color: var(--white-global);
+  border-radius: 10%;
+  width: 70px;
+  position: inherit;
+  top: 20px;
+  right: 20px;
+}
+
+.badge-primary {
+  background: radial-gradient(var(--primary-color), var(--light-primary-color));
+}
+
+.badge-notification {
+  background: radial-gradient(
+    var(--warning-color),
+    var(--warning-color),
+    var(--white-global)
+  );
+  color: var(--primary-color);
+}
+
+.badge-success {
+  background: radial-gradient(
+    var(--success-color),
+    var(--success-color),
+    var(--white-global)
+  );
+}
+
+.badge-fail {
+  background: radial-gradient(
+    var(--failure-color),
+    var(--failure-color),
+    var(--white-global)
+  );
+}
+
+.badge-container {
+  color: var(--white-global);
+  position: relative;
+}
+
+.badge-round-lg {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  top: 0px;
+  right: 0px;
+}
+
+.badge-round-sm {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  top: -2.5px;
+  right: -2.5px;
+}
+
+.badge-round-lg p,
+.badge-round-sm p {
+  background-color: inherit;
+  margin: auto;
+}
+
+.badge-round-sm p {
+  font-size: 0.75rem;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: var(--secondary-color);
+  box-shadow: 3px 3px 3px var(--light-primary-color);
+}
+
+.icon i {
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center;
+  height: 100%;
+  color: var(--white-global);
+  background-color: inherit;
 }
