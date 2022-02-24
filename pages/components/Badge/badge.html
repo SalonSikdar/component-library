@@ -15,6 +15,9 @@
     <link rel="shortcut icon" href="../../../images/simpleUIlogo.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="../../../images/simpleUIlogo.png" />
     <link rel="stylesheet" href="../../../css/night-owl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -96,9 +99,51 @@
                 &lt;span class="badge bg-info">Info&lt;/span>
             </code>
         </pre>
-        <!-- badge on icons -->
+        <!-- badge on icons start-->
         <h2 class="sub-comp-header">Badge on Icons</h2>
-
+        <div class="row">
+            <div class="badge-container">
+                <span class="badge-round-sm badge-primary">
+                    <p>4</p>
+                </span>
+                <div class="icon">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </div>
+            </div>
+            <div class="badge-container">
+                <span class="badge-round-sm badge-primary">
+                    <p>3</p>
+                </span>
+                <div class="icon">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+            </div>
+            <div class="badge-container">
+                <span class="badge-round-sm badge-primary">
+                    <p>11</p>
+                </span>
+                <div class="icon">
+                    <i class="fa-solid fa-cart-flatbed"></i>
+                </div>
+            </div>
+            <div class="badge-container">
+                <span class="badge-round-sm badge-primary">
+                    <p>8</p>
+                </span>
+                <div class="icon">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+            <div class="badge-container">
+                <span class="badge-round-sm badge-primary">
+                    <p>1</p>
+                </span>
+                <div class="icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+        <!-- badge on icons end-->
         <!-- badge on avatars start -->
         <h2 class="sub-comp-header">Badge on Avatars</h2>
         <div class="row">
@@ -135,6 +180,24 @@
                 </div>
             </div>
         </div>
+        <br />
+        <p class="component-description">
+            The badges on avatars can be customized to four styles, <span class="highlight">badge-primary</span>
+            (primary color), <span class="highlight">badge-notification</span> (yellow), <span
+                class="highlight">badge-success</span> (green) <span class="highlight">badge-failure</span> (red).
+        </p>
+        <pre class="comp-code-container">
+            <code class="html">
+                &lt;div class="badge-container">
+                    &lt;span class="badge-round-lg badge-fail">
+                        &lt;p>9&lt;/p>
+                    &lt;/span>
+                    &lt;div class="avatar-std">
+                        &lt;img src="../../../images/user4.jpg" class="avatar" />
+                    &lt;/div>
+                &lt;/div>
+            &lt;/code>
+        </pre>
         <!-- badge on avatars end -->
         <footer class="page-footer">
             <a href="../Avatar/avatar.html" class="footer-button">

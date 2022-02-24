@@ -91,7 +91,42 @@
   right: 0px;
 }
 
-.badge-round-lg p {
+.badge-round-sm {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  top: -2.5px;
+  right: -2.5px;
+}
+
+.badge-round-lg p,
+.badge-round-sm p {
   background-color: inherit;
   margin: auto;
+}
+
+.badge-round-sm p {
+  font-size: 0.75rem;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: var(--secondary-color);
+  box-shadow: 3px 3px 3px var(--light-primary-color);
+}
+
+.icon i {
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center;
+  height: 100%;
+  color: var(--white-global);
+  background-color: inherit;
 }
