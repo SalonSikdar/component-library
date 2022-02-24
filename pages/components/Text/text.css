@@ -1,0 +1,8 @@
+.text-muted {
+  color: var(--ultra-light-primary-color) !important;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
