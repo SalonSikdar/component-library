@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../../css/comp-page.css" />
     <link rel="stylesheet" href="../../../css/utilities.css" />
     <link rel="stylesheet" href="./badge.css" />
+    <link rel="stylesheet" href="../Avatar/avatar.css" />
     <link rel="shortcut icon" href="../../../images/simpleUIlogo.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="../../../images/simpleUIlogo.png" />
     <link rel="stylesheet" href="../../../css/night-owl.css">
@@ -34,13 +35,14 @@
 
         <div class="nav-main-heading">Components</div>
         <ul class="nav-comp-section">
-           <li class="component-links">
+            <li class="component-links">
                 <a href="../Avatar/avatar.html">Avatar</a>
             </li>
             <li class="component-links">
                 <a href="../Alert/alert.html">Alert</a>
             </li>
             <li class="component-links">
+                <link rel="stylesheet" href="./avatar.css" />
                 <a href="../Badge/badge.html">Badge</a>
             </li>
             <li class="component-links">
@@ -64,7 +66,8 @@
             <li class="component-links">
                 <a href="../Toast/toast.html">Toast</a>
             </li>
-        </ul>    </nav>
+        </ul>
+    </nav>
     <main class="component-display">
         <h1 class="component-display-header">Badge</h1>
         <pre class="comp-code-container"><code class="html">
@@ -93,7 +96,46 @@
                 &lt;span class="badge bg-info">Info&lt;/span>
             </code>
         </pre>
+        <!-- badge on icons -->
+        <h2 class="sub-comp-header">Badge on Icons</h2>
 
+        <!-- badge on avatars start -->
+        <h2 class="sub-comp-header">Badge on Avatars</h2>
+        <div class="row">
+            <div class="badge-container">
+                <span class="badge-round-lg badge-primary">
+                    <p>3</p>
+                </span>
+                <div class="avatar-std">
+                    <img src="../../../images/user3.jpg" class="avatar" />
+                </div>
+            </div>
+            <div class="badge-container">
+                <span class="badge-round-lg badge-notification">
+                    <p>12</p>
+                </span>
+                <div class="avatar-std">
+                    <img src="../../../images/user2.jpg" class="avatar" />
+                </div>
+            </div>
+            <div class="badge-container">
+                <span class="badge-round-lg badge-success">
+                    <p>6</p>
+                </span>
+                <div class="avatar-std">
+                    <img src="../../../images/user1.jpg" class="avatar" />
+                </div>
+            </div>
+            <div class="badge-container">
+                <span class="badge-round-lg badge-fail">
+                    <p>9</p>
+                </span>
+                <div class="avatar-std">
+                    <img src="../../../images/user4.jpg" class="avatar" />
+                </div>
+            </div>
+        </div>
+        <!-- badge on avatars end -->
         <footer class="page-footer">
             <a href="../Avatar/avatar.html" class="footer-button">
                 <img src="../../../images/previous-arrow.svg" alt="" />Alert
