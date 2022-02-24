@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navigation</title>
+    <title>Text</title>
     <link rel="stylesheet" href="../../../css/header.css" />
     <link rel="stylesheet" href="../../../css/main.css" />
     <link rel="stylesheet" href="../../../css/comp-page.css" />
@@ -89,16 +89,86 @@
             <small class="text-muted">with muted text</small>
         </h3>
         <p class="lead">This is a random example paragraph to demonstrate a description content in simple-UI</p>
-        <br />
         <p class="component-description">
-            ---
+            The basic HTML header components can be used as is. Further, <span class="highlight">text-muted</span> and
+            <span class="highlight">lead</span> can be used to style specific typography types.
         </p>
         <pre class="comp-code-container">
             <code class="html">
-                ---
+                &lt;h1>Heading 1&lt;/h1>
+                &lt;h2>Heading 2&lt;/h2>
+                &lt;h3>Heading 3&lt;/h3>
+                &lt;h4>Heading 4&lt;/h4>
+                &lt;h5>Heading 5&lt;/h5>
+                &lt;h6>Heading 6&lt;/h6>
+                &lt;h3>
+                    Heading
+                    &lt;small class="text-muted">with muted text&lt;/small>
+                &lt;/h3>
+                &lt;p class="lead">This is a random example paragraph to demonstrate a description content in simple-UI&lt;/p>
             </code>
         </pre>
-
+        <!-- text part 2 start -->
+        <h2 class="sub-comp-header">Content Typography</h2>
+        <h2>Example body text</h2>
+        <p>Vestibulum nec feugiat sapien. Aenean.
+            <a href="#">Aliquam feugiat et.</a>
+            Ut feugiat nulla non sem vulputate ultrices. Nam orci nibh, vulputate vel faucibus id, auctor sed urna.
+            Curabitur sit amet placerat nibh. Duis viverra augue vitae nunc semper ultricies. Nulla dapibus convallis
+            justo, at mattis nisl sollicitudin non. Nullam nec pharetra sem. Morbi tempor eros a quam pulvinar, ut
+            euismod purus commodo. Curabitur porttitor diam vel enim dapibus, at cursus justo faucibus. Mauris sit amet
+            justo nec massa varius ullamcorper. Quisque ut sapien dapibus, finibus tortor ut, laoreet leo. Duis at elit
+            non leo hendrerit consectetur vitae quis ante.
+        </p>
+        <p><small>This line of text is meant to be treated as fine print.</small></p>
+        <p>The following is <strong>rendered as bold text</strong>.</p>
+        <p>The following is <em>rendered as italicized text</em>.</p>
+        <p>An abbreviation of the word attribute is <abbr>attr</abbr>.</p>
+        <p class="component-description">
+            Different parts of speech can be developed as in the demonstration below.
+        </p>
+        <pre class="comp-code-container">
+            <code class="html">
+                &lt;h2>Example body text&lt;/h2>
+        &lt;p>Vestibulum nec feugiat sapien. Aenean.
+            &lt;a href="#">Aliquam feugiat et.&lt;/a>
+           ---
+        &lt;/p>
+        &lt;p>&lt;small>This line of text is meant to be treated as fine print.&lt;/small>&lt;/p>
+        &lt;p>The following is &lt;strong>rendered as bold text&lt;/strong>.&lt;/p>
+        &lt;p>The following is &lt;em>rendered as italicized text&lt;/em>.&lt;/p>
+        &lt;p>An abbreviation of the word attribute is &lt;abbr>attr&lt;/abbr>.&lt;/p>
+            </code>
+        </pre>
+        <!-- text part 2 end -->
+        <!-- text part 3 start -->
+        <h2 class="sub-comp-header">Blockquote</h2>
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <p class="mb-0"> Justo, at mattis nisl sollicitudin non. Nullam nec pharetra sem.
+                    Morbi tempor eros aquam pulvinar, ut euismod purus commodo. </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Someone famous in <cite>Source Title</cite>
+            </figcaption>
+        </figure>
+        <p class="component-description">
+            Brockquotes can be built the following way.
+        </p>
+        <pre class="comp-code-container">
+            <code class="html">
+                &lt;figure class="text-center">
+                    &lt;blockquote class="blockquote">
+                        &lt;p class="mb-0"> Justo, at mattis nisl sollicitudin non. Nullam nec pharetra sem.
+                            Morbi tempor eros aquam pulvinar, ut euismod purus commodo. &lt;/p>
+                    &lt;/blockquote>
+                    &lt;figcaption class="blockquote-footer">
+                        Someone famous in &lt;cite>Source Title&lt;/cite>
+                    &lt;/figcaption>
+                &lt;/figure>
+            </code>
+        </pre>
+        <!-- text part 3 end -->
         <footer class="page-footer">
             <a href="../Toast/toast.html" class="footer-button">
                 <img src="../../../images/previous-arrow.svg" alt="" />Toast

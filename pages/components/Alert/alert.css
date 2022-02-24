@@ -96,10 +96,6 @@ button {
   color: inherit;
 }
 
-.mb-0 {
-  margin-bottom: 0 !important;
-}
-
 .alert-link {
   font-weight: 700;
 }

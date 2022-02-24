@@ -109,3 +109,11 @@ button:hover {
   -ms-flex-align: center !important;
   align-items: center !important;
 }
+
+.text-center {
+  text-align: center !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
