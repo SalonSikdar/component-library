@@ -35,7 +35,7 @@
 .secondary li,
 .secondary ul,
 .secondary h2 {
-  background-color: var(--secondary-color) !important;
+  background-color: var(--secondary-color) ;
 }
 
 .secondary h2 {
@@ -51,7 +51,7 @@
 .muted li,
 .muted ul,
 .muted h2 {
-  background-color: var(--ultra-light-primary-color) !important;
+  background-color: var(--ultra-light-primary-color);
 }
 
 .muted h2 {

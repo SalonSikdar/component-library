@@ -17,56 +17,56 @@
 
 .text-white {
   --bs-text-opacity: 1;
-  color: var(--white-global) !important;
+  color: var(--white-global) ;
 }
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: var(--primary-color) !important;
+  background-color: var(--primary-color) ;
 }
 
 .border-primary {
-  border-color: var(--primary-color) !important;
+  border-color: var(--primary-color) ;
 }
 
 .bg-success {
   --bs-bg-opacity: 1;
-  background-color: var(--success-color) !important;
+  background-color: var(--success-color) ;
 }
 
 .border-success {
-  border-color: var(--success-color) !important;
+  border-color: var(--success-color) ;
 }
 
 .bg-warning {
   --bs-bg-opacity: 1;
-  background-color: var(--warning-color) !important;
+  background-color: var(--warning-color) ;
 }
 
 .border-warning {
-  border-color: var(--warning-color) !important;
+  border-color: var(--warning-color) ;
 }
 
 .bg-info {
   --bs-bg-opacity: 1;
-  background-color: var(--info-color) !important;
+  background-color: var(--info-color) ;
 }
 
 .border-info {
-  border-color: var(--info-color) !important;
+  border-color: var(--info-color) ;
 }
 
 .bg-danger {
   --bs-bg-opacity: 1;
-  background-color: var(--failure-color) !important;
+  background-color: var(--failure-color) ;
 }
 
 .border-danger {
-  border-color: var(--failure-color) !important;
+  border-color: var(--failure-color) ;
 }
 
 .mb-3 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 1rem ;
 }
 
 .card-header {
