@@ -19,22 +19,22 @@
 
 .bg-error {
   --bs-bg-opacity: 1;
-  background-color: var(--failure-color) !important;
+  background-color: var(--failure-color);
 }
 
 .bg-success {
   --bs-bg-opacity: 1;
-  background-color: var(--success-color) !important;
+  background-color: var(--success-color);
 }
 
 .bg-info {
   --bs-bg-opacity: 1;
-  background-color: var(--info-color) !important;
+  background-color: var(--info-color);
 }
 
 .bg-warning {
   --bs-bg-opacity: 1;
-  background-color: var(--warning-color) !important;
+  background-color: var(--warning-color);
 }
 
 .badge-round {
