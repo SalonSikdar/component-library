@@ -9,6 +9,7 @@
   --card-width: 15em;
   --card-max-width: 90vw;
   --card-img-height: 20em;
+  --component-desc-color: #464d5f;
 }
 
 * {
@@ -127,7 +128,7 @@
   margin-left: 0.5em;
   font-family: "PT Sans", sans-serif;
   line-height: 1.5em;
-  color: #464d5f;
+  color: var(--component-desc-color);
 }
 
 .component-description b {

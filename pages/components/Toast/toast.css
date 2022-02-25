@@ -33,7 +33,7 @@
   -ms-flex-align: center;
   align-items: center;
   padding: 0.5rem 0.75rem;
-  color: #777;
+  color: var(--muted-text);
   background-color: var(--background-white);
   background-clip: padding-box;
   border-bottom: 1px solid;
