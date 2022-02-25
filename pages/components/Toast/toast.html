@@ -156,11 +156,26 @@
         </div>
         <br />
         <p class="component-description">
-            ...
+            The toasts can be customized to six basic styles, <span class="highlight">toast-primary</span> (primary
+            color),<span class="highlight">toast-success</span> (green), <span class="highlight">toast-warning</span>
+            (yellow), <span class="highlight">toast-info</span> (blue) <span class="highlight">toast-error</span> (red)
+            and
+            <span class="highlight">toast-secondary</span>(secondary color).
         </p>
         <pre class="comp-code-container">
             <code class="html">
-                ---
+                &lt;div class="toast">
+                    &lt;div class="toast-header toast-success">
+                        &lt;strong class="push-to-right">My Simple Toast&lt;/strong>
+                        &lt;small>5 mins ago&lt;/small>
+                        &lt;button type="button" class="btn-close ms-2 mb-1">
+                            &lt;span aria-hidden="true">&lt;/span>
+                        &lt;/button>
+                    &lt;/div>
+                    &lt;div class="toast-body">
+                        Hello, world! This is a toast message.
+                    &lt;/div>
+                &lt;/div>
             </code>
         </pre>
 
