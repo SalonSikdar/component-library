@@ -6,8 +6,8 @@ img.avatar {
   object-fit: cover;
   border-radius: 50%;
   display: block;
-  margin: auto !important;
-  padding: auto !important;
+  margin: auto;
+  padding: auto;
   box-shadow: 5px 5px 3px var(--shadow-color);
 }
 
