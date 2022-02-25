@@ -95,3 +95,25 @@ button:hover {
     margin-bottom: 1em;
   }
 }
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.justify-content-between {
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}

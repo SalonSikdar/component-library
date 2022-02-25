@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
+
+.text-muted {
+  color: var(--light-secondary-color) !important;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--light-primary-color);
+}
+
+.blockquote {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.blockquote-footer {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875em;
+  color: var(--ultra-light-primary-color);
+}

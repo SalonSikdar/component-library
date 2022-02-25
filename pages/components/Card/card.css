@@ -70,7 +70,7 @@
 }
 
 .card-header {
-  padding: 0.5rem 1rem;
+  padding: 5px 1rem;
   margin-bottom: 0;
   background-color: var(--header-default-bg);
   border-bottom: 1px solid var(--border-white);
@@ -82,7 +82,7 @@
 }
 
 .card-title {
-  margin-bottom: 0.5rem;
+  margin-bottom: 5px;
   font-weight: bold;
   background-color: transparent;
 }
