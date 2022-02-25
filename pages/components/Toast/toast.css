@@ -82,7 +82,7 @@
 }
 
 .toast-header small {
-  color: var(--muted-text);
+  color: var(--white-global);
 }
 
 .toast-header small,
