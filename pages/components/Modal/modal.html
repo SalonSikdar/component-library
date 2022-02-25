@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../../css/comp-page.css" />
     <link rel="stylesheet" href="../../../css/utilities.css" />
     <link rel="stylesheet" href="./modal.css" />
+    <link rel="stylesheet" href="../Button/button.css" />
     <link rel="shortcut icon" href="../../../images/simpleUIlogo.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="../../../images/simpleUIlogo.png" />
     <link rel="stylesheet" href="../../../css/night-owl.css">
@@ -79,15 +80,49 @@
     &lt;link rel="stylesheet" 
     href="https://si-mpleui.netlify.app/pages/components/Modal/modal.css">
             </code></pre>
-        <br />
-        <h1>modals here</h1>
+        <div class="modal-demo">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close">
+                            <span aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer ">
+                        <button type="button" class="btn btn-success">Save Changes</button>
+                        <button type="button" class="btn btn-error">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <br />
         <p class="component-description">
-            ---
+            A modal can be used with the following syntax,
         </p>
         <pre class="comp-code-container">
             <code class="html">
-               ---
+                &lt;div class="modal">
+                    &lt;div class="modal-dialog" role="document">
+                        &lt;div class="modal-content">
+                            &lt;div class="modal-header">
+                                &lt;h5 class="modal-title">Modal title&lt;/h5>
+                                &lt;button type="button" class="btn-close" >
+                                    &lt;span aria-hidden="true">&lt;/span>
+                                &lt;/button>
+                            &lt;/div>
+                            &lt;div class="modal-body">
+                                &lt;p>Modal body text goes here.&lt;/p>
+                            &lt;/div>
+                            &lt;div class="modal-footer ">
+                                &lt;button type="button" class="btn btn-success">Save Changes&lt;/button>
+                                &lt;button type="button" class="btn btn-error">Cancel&lt;/button>
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/div>
                 &lt;/div>
             </code>
         </pre>
