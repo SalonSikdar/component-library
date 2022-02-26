@@ -5,12 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alert</title>
+    <title>Modal</title>
     <link rel="stylesheet" href="../../../css/header.css" />
     <link rel="stylesheet" href="../../../css/main.css" />
     <link rel="stylesheet" href="../../../css/comp-page.css" />
     <link rel="stylesheet" href="../../../css/utilities.css" />
-    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="./modal.css" />
+    <link rel="stylesheet" href="../Button/button.css" />
     <link rel="shortcut icon" href="../../../images/simpleUIlogo.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="../../../images/simpleUIlogo.png" />
     <link rel="stylesheet" href="../../../css/night-owl.css">
@@ -79,60 +80,65 @@
         </ul>
     </nav>
     <main class="component-display">
-        <h1 class="component-display-header">Alert</h1>
+        <h1 class="component-display-header">Modal</h1>
         <pre class="comp-code-container"><code class="html">
-    @import url("https://si-mpleui.netlify.app/pages/components/Alert/alert.css");
+    @import url("https://si-mpleui.netlify.app/pages/components/Modal/modal.css");
     &lt;link rel="stylesheet" 
-    href="https://si-mpleui.netlify.app/pages/components/Alert/alert.css">
+    href="https://si-mpleui.netlify.app/pages/components/Modal/modal.css">
             </code></pre>
-        <br />
-        <div class="alert alert-dismissible alert-success">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert
-                message</a>.
+        <div class="modal-demo">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close">
+                            <span aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer ">
+                        <button type="button" class="btn btn-success">Save Changes</button>
+                        <button type="button" class="btn btn-error">Cancel</button>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="alert alert-dismissible alert-warning">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Something seems to be off</strong> please try checking on <a href="#" class="alert-link">this
-                important alert
-                message</a>.
-        </div>
-
-        <div class="alert alert-dismissible alert-info">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not
-            super important.
-        </div>
-
-        <div class="alert alert-dismissible alert-error">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting
-            again.
-        </div>
-
         <br />
         <p class="component-description">
-            The alert can be customized to four styles, <span class="highlight">alert-success</span> (green), <span
-                class="highlight">alert-warning</span> (yellow), <span class="highlight">alert-info</span> (blue) <span
-                class="highlight">alert-error</span> (red).
+            A modal can be used with the following syntax,
         </p>
         <pre class="comp-code-container">
             <code class="html">
-            &lt;div class="alert alert-dismissible alert-error">
-                &lt;button type="button" class="btn-close" data-bs-dismiss="alert">&lt;/button>
-                &lt;strong>Oh snap!&lt;/strong> &lt;a href="#" class="alert-link">Change a few things up&lt;/a> and try submitting
-                again.
-            &lt;/div>
+                &lt;div class="modal">
+                    &lt;div class="modal-dialog" role="document">
+                        &lt;div class="modal-content">
+                            &lt;div class="modal-header">
+                                &lt;h5 class="modal-title">Modal title&lt;/h5>
+                                &lt;button type="button" class="btn-close" >
+                                    &lt;span aria-hidden="true">&lt;/span>
+                                &lt;/button>
+                            &lt;/div>
+                            &lt;div class="modal-body">
+                                &lt;p>Modal body text goes here.&lt;/p>
+                            &lt;/div>
+                            &lt;div class="modal-footer ">
+                                &lt;button type="button" class="btn btn-success">Save Changes&lt;/button>
+                                &lt;button type="button" class="btn btn-error">Cancel&lt;/button>
+                            &lt;/div>
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
             </code>
         </pre>
 
         <footer class="page-footer">
-            <a href="../Avatar/avatar.html" class="footer-button">
-                <img src="../../../images/previous-arrow.svg" alt="" />Avatar
+            <a href="../Text/text.html" class="footer-button">
+                <img src="../../../images/previous-arrow.svg" alt="" />Text
             </a>
-            <a href="../Badge/badge.html" class="footer-button">
-                Badge
+            <a href="../Grid/grid.html" class="footer-button">
+                Grid
                 <img src="../../../images/forward-arrow.svg" alt="" />
             </a>
         </footer>

@@ -1,0 +1,15 @@
+.checked-poor {
+  color: var(--failure-color);
+}
+
+.checked-moderate {
+  color: var(--secondary-color);
+}
+
+.checked-good {
+  color: var(--success-color);
+}
+
+.empty {
+  color: var(--ultra-light-primary-color);
+}

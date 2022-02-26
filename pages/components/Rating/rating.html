@@ -5,15 +5,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alert</title>
+    <title>Rating</title>
     <link rel="stylesheet" href="../../../css/header.css" />
     <link rel="stylesheet" href="../../../css/main.css" />
     <link rel="stylesheet" href="../../../css/comp-page.css" />
     <link rel="stylesheet" href="../../../css/utilities.css" />
-    <link rel="stylesheet" href="./alert.css" />
+    <link rel="stylesheet" href="./rating.css" />
     <link rel="shortcut icon" href="../../../images/simpleUIlogo.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="../../../images/simpleUIlogo.png" />
     <link rel="stylesheet" href="../../../css/night-owl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -79,62 +80,51 @@
         </ul>
     </nav>
     <main class="component-display">
-        <h1 class="component-display-header">Alert</h1>
+        <h1 class="component-display-header">Ratings</h1>
         <pre class="comp-code-container"><code class="html">
-    @import url("https://si-mpleui.netlify.app/pages/components/Alert/alert.css");
+    @import url("https://si-mpleui.netlify.app/pages/components/Rating/rating.css");
     &lt;link rel="stylesheet" 
-    href="https://si-mpleui.netlify.app/pages/components/Alert/alert.css">
+    href="https://si-mpleui.netlify.app/pages/components/Rating/rating.css">
             </code></pre>
+        <h2 class="sub-comp-header">Poor Rating</h2>
+        <span class="fa fa-star checked-poor"></span>
+        <span class="fa fa-star checked-poor"></span>
+        <span class="fa fa-star empty"></span>
+        <span class="fa fa-star empty"></span>
+        <span class="fa fa-star empty"></span>
         <br />
-        <div class="alert alert-dismissible alert-success">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert
-                message</a>.
-        </div>
-
-        <div class="alert alert-dismissible alert-warning">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Something seems to be off</strong> please try checking on <a href="#" class="alert-link">this
-                important alert
-                message</a>.
-        </div>
-
-        <div class="alert alert-dismissible alert-info">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not
-            super important.
-        </div>
-
-        <div class="alert alert-dismissible alert-error">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-            <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting
-            again.
-        </div>
-
+        <h2 class="sub-comp-header">Moderate Rating</h2>
+        <span class="fa fa-star checked-moderate"></span>
+        <span class="fa fa-star checked-moderate"></span>
+        <span class="fa fa-star checked-moderate"></span>
+        <span class="fa fa-star empty"></span>
+        <span class="fa fa-star empty"></span>
+        <br />
+        <h2 class="sub-comp-header">Good Rating</h2>
+        <span class="fa fa-star checked-good"></span>
+        <span class="fa fa-star checked-good"></span>
+        <span class="fa fa-star checked-good"></span>
+        <span class="fa fa-star checked-good"></span>
+        <span class="fa fa-star checked-good"></span>
         <br />
         <p class="component-description">
-            The alert can be customized to four styles, <span class="highlight">alert-success</span> (green), <span
-                class="highlight">alert-warning</span> (yellow), <span class="highlight">alert-info</span> (blue) <span
-                class="highlight">alert-error</span> (red).
+            A Rating component can be used with the following syntax.
         </p>
         <pre class="comp-code-container">
             <code class="html">
-            &lt;div class="alert alert-dismissible alert-error">
-                &lt;button type="button" class="btn-close" data-bs-dismiss="alert">&lt;/button>
-                &lt;strong>Oh snap!&lt;/strong> &lt;a href="#" class="alert-link">Change a few things up&lt;/a> and try submitting
-                again.
-            &lt;/div>
+                &lt;span class="fa fa-star checked-poor">&lt;/span>
+                &lt;span class="fa fa-star checked-moderate">&lt;/span>
+                &lt;span class="fa fa-star checked-good">&lt;/span>
             </code>
         </pre>
-
         <footer class="page-footer">
-            <a href="../Avatar/avatar.html" class="footer-button">
-                <img src="../../../images/previous-arrow.svg" alt="" />Avatar
+            <a href="../Grid/grid.html" class="footer-button">
+                <img src="../../../images/previous-arrow.svg" alt="" />Grid
             </a>
-            <a href="../Badge/badge.html" class="footer-button">
-                Badge
+            <!-- <a href="../Text/text.html" class="footer-button">
+                Text
                 <img src="../../../images/forward-arrow.svg" alt="" />
-            </a>
+            </a> -->
         </footer>
     </main>
     <script src="../../../src/colorTheme.js"></script>
