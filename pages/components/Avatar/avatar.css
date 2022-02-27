@@ -6,8 +6,8 @@ img.avatar {
   object-fit: cover;
   border-radius: 50%;
   display: block;
-  margin: auto !important;
-  padding: auto !important;
+  margin: auto;
+  padding: auto;
   box-shadow: 5px 5px 3px var(--shadow-color);
 }
 
@@ -38,18 +38,18 @@ img.avatar {
 
 .online {
   outline: solid 5px var(--success-color);
-  margin: 0.5rem;
+  margin: 5px;
   box-shadow: 7px 7px 5px var(--shadow-color);
 }
 
 .offline {
   outline: solid 5px var(--failure-color);
-  margin: 0.5rem;
+  margin: 5px;
   box-shadow: 7px 7px 5px var(--shadow-color);
 }
 
 .away {
   outline: solid 5px var(--warning-color);
-  margin: 0.5rem;
+  margin: 5px;
   box-shadow: 7px 7px 5px var(--shadow-color);
 }

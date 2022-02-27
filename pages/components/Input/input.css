@@ -1,0 +1,51 @@
+:root {
+  --border-color: #bbb;
+}
+
+.form-label {
+  margin-bottom: 5px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 3.75px 7.5px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--primary-color);
+  background-color: var(--white-global);
+  background-clip: padding-box;
+  border: 1px solid var(--border-color);
+  border-radius: 2.5px;
+}
+
+.is-valid {
+  border: 1px solid var(--success-color);
+}
+
+.is-invalid {
+  border: 1px solid var(--failure-color);
+}
+
+.valid-feedback {
+  color: var(--success-color);
+}
+
+.invalid-feedback {
+  color: var(--failure-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .form-control {
+    transition: none;
+  }
+}
+
+.form-control:focus {
+  color: var(--primary-color);
+  background-color: var(--white-global);
+  border-color: var(--failure-color);
+  outline: 0;
+  box-shadow: 0 0 0 2.5px rgba(var(--failure-color), 0.25);
+}

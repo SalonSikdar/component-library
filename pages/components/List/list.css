@@ -1,0 +1,32 @@
+.list-group {
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  border-radius: 0.25rem;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 5px 1rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  background-color: var(--white-global);
+  border: 1px solid var(--light-primary-color);
+}
+
+.list-group-item:hover {
+  background-color: var(--light-secondary-color);
+  color: var(--white-global);
+}
+
+.list-header {
+  background-color: var(--primary-color);
+  color: var(--white-global);
+}
+
+.list-header:hover {
+  background-color: var(--light-primary-color);
+}
