@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Getting Started with Simple UI - A simple Component Library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is hoisted on https://si-mpleui.netlify.app/
 
-## Available Scripts
+## Available Components 
 
-In the project directory, you can run:
+In the project documentation, you can find details like a demo and how to use of each component:
 
-### `npm start`
+### `Avatar`
+https://si-mpleui.netlify.app/pages/components/avatar/avatar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `Alert`
+https://si-mpleui.netlify.app/pages/components/alert/alert
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Badge`
+https://si-mpleui.netlify.app/pages/components/badge/badge
 
-### `npm test`
+### `Button`
+https://si-mpleui.netlify.app/pages/components/button/button
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Card`
+https://si-mpleui.netlify.app/pages/components/card/card
 
-### `npm run build`
+### `Image`
+https://si-mpleui.netlify.app/pages/components/image/image
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Input`
+https://si-mpleui.netlify.app/pages/components/input/input
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `List`
+https://si-mpleui.netlify.app/pages/components/list/list
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Navigation`
+https://si-mpleui.netlify.app/pages/components/navigation/navigation
 
-### `npm run eject`
+### `Toast`
+https://si-mpleui.netlify.app/pages/components/toast/toast
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `Text`
+https://si-mpleui.netlify.app/pages/components/text/text
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Modal`
+https://si-mpleui.netlify.app/pages/components/modal/modal
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `Grid`
+https://si-mpleui.netlify.app/pages/components/grid/grid
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `Rating`
+https://si-mpleui.netlify.app/pages/components/rating/rating
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
